@@ -1,5 +1,5 @@
 ## Lattice model with spin-orbit coupling
-The initial goal of this project is to develop a library to simplify the numerical calculation of the lattice mode with spin-orbit coupling, given the configuration of lasers in the optical-lattice experiment.
+The initial goal of this project is to develop a library to simplify the numerical calculation of the lattice model with spin-orbit coupling, given the configuration of lasers in the optical-lattice experiment.
 
 #### What's include:
 1. band structure in momentum space (along a loop and in an area)
