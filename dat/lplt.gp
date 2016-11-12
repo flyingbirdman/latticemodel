@@ -18,14 +18,14 @@ set style line 12 lc rgb 'black' lt 1 lw 2
 set grid xtics ls 12
 
 set xtics ('$\Gamma$' 0, 'X' 0.292893, 'M' 0.585786, '$\Gamma$' 1)
-set title '\Large (a) cubic' font "Helvetica" offset 0,-0.6
+set title '\Large (a) Square Lattice' font "Helvetica" offset 0,-0.6
 plot 'cubic_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 
 set xtics ('$\Gamma$' 0, 'X' 0.366025, 'K' 0.57735, '$\Gamma$' 1)
-set title '\Large (b) hexagon' font "Helvetica" offset 0,-0.6
+set title '\Large (b) Hexagon Lattice' font "Helvetica" offset 0,-0.6
 plot 'hexa_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 
-set title '\Large (c) kagome' font "Helvetica" offset 0,-0.6
+set title '\Large (c) Kagome Lattice' font "Helvetica" offset 0,-0.6
 plot 'kagome_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 unset multiplot
 

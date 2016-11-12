@@ -18,15 +18,15 @@ set grid xtics ls 12
 
 unset xtics
 set xtics ("{/Symbol G}" 0, "X" 0.292893, "M" 0.585786, "{/Symbol G}" 1 )
-set title '(a) cubic'  offset 0,-0.6
+set title '(a) Square Lattice'  offset 0,-0.6
 plot 'cubic_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 
 unset xtics
 set xtics ("{/Symbol G}" 0, "X" 0.366025, "K" 0.57735, "{/Symbol G}" 1 )
-set title '(b) hexagon'  offset 0,-0.6
+set title '(b) Hexagon Lattice'  offset 0,-0.6
 plot 'hexa_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 
-set title '(c) kagome' offset 0,-0.6
+set title '(c) Kagome lattice' offset 0,-0.6
 plot 'kagome_l_eigval.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1, '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 unset multiplot
 

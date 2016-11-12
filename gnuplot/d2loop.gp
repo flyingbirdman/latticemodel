@@ -1,8 +1,7 @@
-#set terminal epslatex color solid 8 standalone size 3,3
-#set output "./tex/loop.tex"
-#set format '$%g$'
+set terminal epslatex color solid 8 standalone size 3,3
+set output "loop.tex"
+set format '$%g$'
 
-reset
 set ytics
 set format x ""
 unset xlabel
@@ -20,10 +19,10 @@ set style line 12 lc rgb 'black' lt 1 lw 2
 set grid xtics ls 12
 
 set xtics ('$\Gamma$' 0, 'X' 0.292893, 'M' 0.585786, '$\Gamma$' 1)
-set title 'cubic with $\sigma_xk_x+\sigma_yk_y$ spin orbit coupling' font "Helvetica" offset 0,-0.6
+set title 'Square lattice with $\sigma_xk_x+\sigma_yk_y$ spin orbit coupling' font "Helvetica" offset 0,-0.6
 
 plot 'd2test_loop_en.dat' u 1:4 w l ls 1, '' u 1:5 w l ls 1 , '' u 1:6 w l ls 1, '' u 1:7 w l ls 1, '' u 1:8 w l ls 1, '' u 1:9 w l ls 1, '' u 1:10 w l ls 1, '' u 1:11 w l ls 1
 
 unset multiplot
 
-#set output
+set output
